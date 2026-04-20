@@ -497,11 +497,16 @@ export default function Home() {
 
 // ── Preload data ─────────────────────────────────────────────────────────────
 const PRELOAD: GearItem[] = [
-  { name:'Line Array Cabinet', w:22, d:24, h:20, weight:130, qty:8, color:'#378ADD', rotation:'both' },
-  { name:'Subwoofer',          w:30, d:30, h:24, weight:210, qty:4, color:'#1D9E75', rotation:'both' },
-  { name:'Amp Rack',           w:19, d:24, h:7,  weight:95,  qty:3, color:'#D85A30', rotation:'normal' },
-  { name:'Stage Monitor',      w:24, d:16, h:13, weight:75,  qty:6, color:'#9F45B0', rotation:'both' },
-  { name:'Snake Box',          w:19, d:20, h:5,  weight:40,  qty:2, color:'#BA7517', rotation:'normal' },
+  { name:'Subwoofer',            w:30, d:34, h:26, weight:265, qty:8,  color:'#1D9E75', rotation:'both' },
+  { name:'Line Array Cabinet',   w:22, d:24, h:20, weight:130, qty:16, color:'#378ADD', rotation:'both' },
+  { name:'Amp Rack (8U)',        w:19, d:30, h:14, weight:180, qty:6,  color:'#D85A30', rotation:'normal' },
+  { name:'Stage Monitor',        w:24, d:18, h:14, weight:85,  qty:8,  color:'#9F45B0', rotation:'both' },
+  { name:'FOH Console Case',     w:48, d:36, h:24, weight:320, qty:1,  color:'#185FA5', rotation:'normal' },
+  { name:'Monitor Console Case', w:36, d:30, h:24, weight:240, qty:1,  color:'#0F6E56', rotation:'normal' },
+  { name:'Cable Trunk',          w:24, d:24, h:24, weight:120, qty:4,  color:'#BA7517', rotation:'both' },
+  { name:'Snake Box',            w:19, d:24, h:6,  weight:45,  qty:4,  color:'#D4537E', rotation:'normal' },
+  { name:'Dimmer Rack',          w:19, d:24, h:14, weight:95,  qty:2,  color:'#534AB7', rotation:'normal' },
+  { name:'Misc Road Case',       w:20, d:20, h:20, weight:60,  qty:4,  color:'#888780', rotation:'both' },
 ]
 
 // ── Shared style helpers ──────────────────────────────────────────────────────
